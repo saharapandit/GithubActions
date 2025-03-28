@@ -34,7 +34,7 @@ public class Subtraction
 	[TestMethod]
 	public void Subtract_Valid_Patino()
 	{
-		Assert.AreEqual(1, Program.Subtract("1", "2"));
+		Assert.AreEqual(-1, Program.Subtract("1", "2"));
 		Assert.AreEqual(0, Program.Subtract("3", "3"));
 		Assert.AreEqual(-2, Program.Subtract("5", "7"));
 	}
